@@ -1,0 +1,22 @@
+{
+  "name": "tvshows-app",
+  "description": "Back end server to support our angular app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "latest",
+    "passport": "latest",
+    "passport-local": "latest",
+    "express-namespace": "latest",
+    "open": "latest",
+    "mongoose": "latest",
+    "request": "latest",
+    "crypto": "latest",
+    "connect-mongo": "latest",
+    "connect-flash": "latest",
+    "underscore": "latest",
+    "supervisor": "latest"
+  },
+  "devDependencies": {
+  }
+}

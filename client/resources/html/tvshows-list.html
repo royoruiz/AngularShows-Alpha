@@ -1,0 +1,25 @@
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span2">
+      <!--Sidebar content-->
+
+      Search: <input ng-model="query">
+      Sort by:
+      <select ng-model="orderProp">
+        <option value="name">Alphabetical</option>
+        <option value="showid">Show ID</option>
+      </select>
+
+    </div>
+    <div class="span10">
+      <!--Body content-->
+
+      <ul class="tvshows">
+        <li ng-repeat="show in shows | filter:query | orderBy:orderProp" class="thumbnail">
+            {{show.name}}
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>

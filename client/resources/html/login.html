@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="offset0"><a href="/auth/facebook"><img src="static/resources/img/facebook.png"></a><a href="/auth/github"><img src="static/resources/img/github.png"></a><a href="/auth/twitter"><img src="static/resources/img/twitter.png"></a><a href="/auth/google"><img src="static/resources/img/google.png"></a><a href="/auth/linkedin"><img src="static/resources/img/linkedin.png"></a></div>
+          
+      <form action="/login" method="post" class="form-signin">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <p class="offset2 error">{{message}}</p>
+        <input name="email" type="text" class="input-block-level" placeholder="Email address">
+        <input name="password" type="password" class="input-block-level" placeholder="Password">
+        <label class="checkbox">
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+        <button class="btn btn-large btn-primary" type="submit">Sign in</button>&nbsp;
+                or&nbsp;<a href="/create" class="show-signup">sign up</a>
+      </form>
+
+    </div> <!-- /container -->

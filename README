@@ -1,0 +1,8 @@
+Test app (CRUD) over MongoDB (mongoose), NodeJS and AngularJS in the front-end.
+
+- Clone, 
+- cd server, 
+- npm install
+- node server.js &
+
+Alpha version for social show. 

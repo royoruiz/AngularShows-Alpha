@@ -1,0 +1,37 @@
+<div class="container-fluid">
+    <div class="offset0"><a href="/auth/facebook"><img src="static/resources/img/facebook.png"></a><a href="/auth/github"><img src="static/resources/img/github.png"></a><a href="/auth/twitter"><img src="static/resources/img/twitter.png"></a><a href="/auth/google"><img src="static/resources/img/google.png"></a><a href="/auth/linkedin"><img src="static/resources/img/linkedin.png"></a></div>
+          
+    <form action="/create" method="post" class="offset1 form-horizontal">
+      {{message}}
+              <div class="control-group">
+                <label for="name" class="control-label">Full name</label>
+                <div class="controls">
+                  <input id="name" type="text" name="name" placeholder="Full name" value="">
+                </div>
+              </div>
+              <div class="control-group">
+                <label for="email" class="control-label">Email</label>
+                <div class="controls">
+                  <input id="email" type="text" name="email" placeholder="Email" value="">
+                </div>
+              </div>
+              <div class="control-group">
+                <label for="username" class="control-label">Username</label>
+                <div class="controls">
+                  <input id="username" type="text" name="username" placeholder="Username" value="">
+                </div>
+              </div>
+              <div class="control-group">
+                <label for="password" class="control-label">Password</label>
+                <div class="controls">
+                  <input id="password" type="password" name="password" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary">Sign up</button>&nbsp;
+                or&nbsp;<a href="/login" class="show-login">login</a>
+              </div>
+            </form>
+
+</div> <!-- /container -->
+
